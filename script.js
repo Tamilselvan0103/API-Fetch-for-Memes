@@ -21,7 +21,7 @@ function displayInfo(element){
   let col = document.getElementById("mainrow")
   col.innerHTML +=`
   <div class = "container col-sm" id = "main">
-  <div class="card" style="width: 18rem; height :30rem;" id ="maincard">
+  <div class="card" style="width: 18rem;" id ="maincard">
   <img src="${element.url}" class="card-img-top img-thumbnail" id="img"alt="...">
   <div class="card-body">
     <h5 class="card-title">${element.name}</h5>
